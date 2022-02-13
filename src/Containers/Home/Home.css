@@ -1,0 +1,128 @@
+.Home{
+    /* margin-left: 300px; */
+}
+
+.Home .background-image{
+    /* width: 100%; */
+    height: 800px;
+    background-size: cover;
+    background-image: url('./header.jfif');
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Home .background-image .header-text {
+    margin: 0;
+    width: 100%;
+    position: relative;
+    font-size: 4vw;
+    color: #252839;
+    -webkit-text-stroke: 0.3vw #383d52;
+    text-transform: uppercase;
+}
+
+.Home .ShortAbout{
+    width: 100%;
+    height: auto;
+}
+
+.Home .ShortAbout .about-header{
+    text-align: center;
+    font-size: 3rem;
+    color: rgb(130, 231, 231)
+}
+
+.Home .ShortAbout .about-text{
+    font-size: 1.5rem;
+    /* width: 50%; */
+    display: flex;
+    justify-content: center;
+}
+.Home .ShortAbout .about-text p{
+    width: 70%;
+}
+
+.Home .ShortAbout .learn-more{
+    display: flex;
+    justify-content: center;
+}
+
+.Home .ShortAbout .learn-more .learn-more-button {
+    border-radius: 30px;
+    position: relative;
+    background-color: #000;
+    color: #fff;
+    padding: 20px 50px;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+    font-size: 20px;
+}
+
+.Home .ShortAbout .learn-more .learn-more-button::after, .Home .ShortAbout .learn-more .learn-more-button::before {
+    content: "";
+    position: absolute;
+    opacity: 0.3;
+    background: #000;
+    border-radius: inherit;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: transform 0.3s ease;
+}
+
+.Home .ShortAbout .learn-more .learn-more-button:hover{
+    transform: translate(-12px, -12px);
+}
+
+.Home .ShortAbout .learn-more .learn-more-button:hover::after{
+    transform: translate(6px, 6px);   
+}
+
+.Home .ShortAbout .learn-more .learn-more-button:hover::before{
+    transform: translate(12px,12px);
+}
+
+.Home .associates{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.Home .associates .associate-items{
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+.Home .associates .associate-items .associate-title{
+    font-size: 20px;
+}
+
+
+/* .Home .background-image .header-text::before{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: lime;
+    -webkit-text-stroke: #383d52;
+    border-right: 2px solid #01fe87;
+    overflow: hidden;
+    animation: animate 9s linear infinite;
+}
+
+@keyframes animate{
+    0%,10%,100%{
+        width: 0;
+    }
+    70%, 90%{
+        width: 100%;
+    }
+} */
