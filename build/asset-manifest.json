@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/strcwebsitelive/static/css/main.e4c6945d.css",
+    "main.js": "/strcwebsitelive/static/js/main.213b050e.js",
+    "static/js/787.71e672d5.chunk.js": "/strcwebsitelive/static/js/787.71e672d5.chunk.js",
+    "static/media/header.jfif": "/strcwebsitelive/static/media/header.e371a0d7e51da108aa45.jfif",
+    "static/media/logo.png": "/strcwebsitelive/static/media/logo.3269a411d48de85b0990.png",
+    "static/media/stayTuned.svg": "/strcwebsitelive/static/media/stayTuned.c51cb049d90bccef8379664527bc9ae6.svg",
+    "static/media/login.svg": "/strcwebsitelive/static/media/login.366ca32d874e57b8ea38b444b7a39727.svg",
+    "static/media/signup.svg": "/strcwebsitelive/static/media/signup.01dcf2adeb84c152b8adad2e1190e503.svg",
+    "static/media/logo.svg": "/strcwebsitelive/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/strcwebsitelive/index.html",
+    "main.e4c6945d.css.map": "/strcwebsitelive/static/css/main.e4c6945d.css.map",
+    "main.213b050e.js.map": "/strcwebsitelive/static/js/main.213b050e.js.map",
+    "787.71e672d5.chunk.js.map": "/strcwebsitelive/static/js/787.71e672d5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e4c6945d.css",
+    "static/js/main.213b050e.js"
+  ]
+}
